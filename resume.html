@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>王绎宁 · 简历（打印版）</title>
+<style>
+  :root{ --ink:#1a1a1a; --sub:#555; --line:#d8d8d8; --accent:#1f4e79; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; background:#eceff3; font-family:"Songti SC","SimSun","Times New Roman",serif; color:var(--ink); }
+  .bar{ position:sticky; top:0; display:flex; justify-content:space-between; gap:12px; align-items:center;
+        padding:12px 18px; background:#0a0e1a; color:#e8eefb; font-family:-apple-system,"PingFang SC",sans-serif; font-size:14px; }
+  .bar a{ color:#7dd3fc; text-decoration:none; }
+  .bar button{ font:inherit; cursor:pointer; border:0; border-radius:9px; padding:9px 18px;
+        background:linear-gradient(135deg,#22d3ee,#8b5cf6); color:#04101c; font-weight:700; }
+  .page{ width:210mm; min-height:297mm; margin:18px auto; background:#fff; padding:16mm 16mm 14mm;
+        box-shadow:0 2px 14px rgba(0,0,0,.18); }
+  h1{ font-size:23px; margin:0 0 2px; letter-spacing:4px; }
+  .intent{ color:var(--accent); font-size:12.5px; margin:2px 0 10px; }
+  .head{ display:flex; justify-content:space-between; gap:16px; align-items:flex-start;
+        border-bottom:2px solid var(--accent); padding-bottom:10px; margin-bottom:12px; }
+  .head-main{ flex:1; min-width:0; }
+  .photo{ width:26mm; height:33mm; object-fit:cover; object-position:50% 30%;
+          border:1px solid #e2e2e2; border-radius:2px; flex:0 0 auto; }
+  .contact{ font-size:12px; color:var(--sub); line-height:1.7; }
+  .contact span{ margin-right:14px; white-space:nowrap; }
+  h2{ font-size:14.5px; color:var(--accent); margin:16px 0 7px; padding-bottom:3px; border-bottom:1px solid var(--line); }
+  .item{ margin-bottom:9px; }
+  .row{ display:flex; justify-content:space-between; align-items:baseline; font-size:12.5px; }
+  .row .l{ font-weight:700; }
+  .row .r{ color:var(--sub); font-size:11.5px; white-space:nowrap; }
+  .role{ font-size:12px; color:var(--sub); margin:1px 0 3px; }
+  ul{ margin:3px 0 6px; padding-left:18px; }
+  li{ font-size:12px; line-height:1.6; margin-bottom:2px; }
+  @media print{ .bar{ display:none; } body{ background:#fff; } .page{ margin:0; box-shadow:none; width:auto; min-height:auto; padding:0; } @page{ size:A4; margin:12mm; } }
+</style>
+</head>
+<body>
+<div class="bar">
+  <a href="index.html">← 返回主页</a>
+  <button type="button" onclick="window.print()">🖨 打印 / 保存为 PDF</button>
+</div>
+
+<div class="page">
+  <div class="head">
+    <div class="head-main">
+      <h1>王绎宁</h1>
+      <div class="intent">求职 / 升学意向：计算机视觉 · 多模态 方向算法工程师　|　目标保研至顶尖高校强组</div>
+      <div class="contact">
+        <span>男</span>
+        <span>出生：2007.09</span>
+        <span>政治面貌：共青团员</span>
+        <span>电话：15076090160</span>
+        <span>邮箱：2206836982@qq.com</span>
+      </div>
+    </div>
+    <img class="photo" src="assets/img/avatar.jpg" alt="王绎宁的照片">
+  </div>
+
+  <h2>教育背景</h2>
+  <div class="item">
+    <div class="row"><span class="l">安徽大学 · 人工智能学院 · 智能科学与技术（本科）</span><span class="r">2026.09 – 2030.06（预计）</span></div>
+    <ul>
+      <li>GPA / 排名：暂无（大一首学期在读）</li>
+      <li>主修课程：高等数学、线性代数、程序设计、概率论与数理统计、数据结构、机器学习、计算机视觉</li>
+      <li>英语：暂无（备考中）　目标：CET-6 550+，能流畅阅读英文文献</li>
+    </ul>
+  </div>
+
+  <h2>科研经历</h2>
+  <div class="item">
+    <div class="row"><span class="l">科研准备中（尚未进入课题组）</span><span class="r">2026.10 – 至今</span></div>
+    <div class="role">目标方向：计算机视觉 / 多模态（如多模态目标跟踪）</div>
+    <ul>
+      <li>打牢数学与编程基础，系统学习 Python 与 PyTorch 的基本使用。</li>
+      <li>阅读并复现计算机视觉经典模型，理解卷积网络与注意力机制。</li>
+      <li>练习阅读英文论文，并把理解整理成学习笔记。</li>
+    </ul>
+  </div>
+
+  <h2>竞赛与获奖</h2>
+  <ul>
+    <li>暂无（正在通过课程学习与竞赛持续积累）</li>
+  </ul>
+
+  <h2>专业技能</h2>
+  <ul>
+    <li>编程语言：Python（使用中）、C / C++（基础）</li>
+    <li>框架 / 工具：PyTorch（入门）</li>
+    <li>外语：英语备考中，目标能够流畅阅读英文文献</li>
+  </ul>
+
+  <h2>自我评价</h2>
+  <ul>
+    <li>对计算机视觉与多模态方向有强烈兴趣，学习主动、能沉下心打基础，愿意从复现论文与跑实验做起。</li>
+  </ul>
+</div>
+</body>
+</html>
