@@ -7,26 +7,25 @@
 
 ```
 personal-website/
-├── index.html               # 主页（单页滚动：关于/教育/科研/项目/技能/荣誉/笔记/联系）
+├── index.html               # 主页（单页滚动：关于/教育/科研/技能/荣誉/笔记/联系）
 ├── resume.html              # 打印版简历（浏览器"打印 → 存为 PDF"）
 ├── blog/
-│   ├── template.html       # 新文章模板（复制它来写新笔记）
-│   ├── hello.html           # 示例文章
-│   └── attention-basics.html# 示例文章
+│   └── template.html        # 新文章模板（复制它来写新笔记）
 ├── assets/
 │   ├── css/style.css        # 全部样式（含主题色变量）
 │   ├── js/main.js           # 交互脚本
-│   └── img/avatar.svg       # 头像占位
+│   └── img/avatar.jpg       # 头像照片
+├── 如何修改.md              # 自己改内容的操作说明
 ├── .nojekyll                # GitHub Pages 用，别删
 └── README.md
 ```
 
 ## 怎么改成你自己的
 
-所有需要改的地方都用 `【】` 标出，**在编辑器里搜索 `【` 就能逐个定位**。
+最常改的内容都在 `index.html` 和 `resume.html` 里，用编辑器打开、`Ctrl+F` 搜对应文字即可。
 
 1. **姓名 / 定位 / 一句话介绍**：`index.html` 的 Hero 区（`id="top"`）。
-2. **联系方式**：`index.html` 底部「联系我」区（邮箱、GitHub、电话）。
+2. **联系方式**：`index.html` 底部「联系我」区（邮箱、GitHub）。
 3. **教育 / 科研 / 项目 / 技能 / 荣誉**：`index.html` 对应的各 section。
 4. **打印版简历**：`resume.html`。
 5. **头像**：把你的照片命名为 `avatar.png` 放进 `assets/img/`，然后把 `index.html` 里
